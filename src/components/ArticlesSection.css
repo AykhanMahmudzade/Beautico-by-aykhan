@@ -1,0 +1,110 @@
+.introductions{
+    background-color: #edebf7;
+}
+
+.skin{
+    color: #3C2769;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.lorem{
+    color: #3C2769;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+
+.shopp{
+    background-color: #cf4d74;
+    width: 143px;
+    height: 58px;
+   border: none;
+   border-radius: 64px;
+
+}
+
+.story{
+    background-color: white;
+    border: white;
+    width: 143px;
+    height: 58px;
+    border-radius: 64px;
+    border-width: 1px;
+}
+
+
+.back{
+    background-color: white;
+    border-radius: 64px;
+    padding: 25px;
+    color: #3C2769;
+}
+
+
+.buttons button {
+    margin-right: 3px;
+    border: none; 
+    padding: 5px 10px;
+  }
+  
+  .buttons button.story {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+
+  
+  
+@media(max-width:768px){
+
+  .shopp{
+    width: 130px;
+  }
+
+  .story{
+    width: 130px;
+  }
+    
+  .man{
+    width: 300px;
+    height: 320px;
+  }
+
+  .partners1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo1,
+  .logo2,
+  .logo3 {
+    margin-bottom: 50px; 
+    max-width: 100%; 
+    height: auto; 
+  }
+
+
+  .partners2{
+    width: 300px;
+    height: 200px;
+  }
+
+    }
+    
+    
+    
+    @media(max-width:1280px){
+
+        .man{
+            width: 373px;
+          }
+              
+          .partners2{
+            width: 300px;
+            height: 200px;
+          }
+    
+}
+ 
