@@ -15,10 +15,10 @@ const HowItWorks = () => {
     </div>
 
 
-    <div className="row hiwcard">
+    <div className="row hiwcard1">
 
 <div className="col-12 col-md-6 col-lg-4">
-  <div className="card border-0 ">
+  <div className="card border-0 hiwcard1 ">
   <Card3
     kartinShekli3="/icons/soap.svg"
     kartinBasligi3="Apply the product"
@@ -29,7 +29,7 @@ const HowItWorks = () => {
    </div>
 
    <div className="col-12 col-md-6 col-lg-4   ">
-   <div className="card border-0">
+   <div className="card border-0 hiwcard1">
 
   <Card3
     kartinShekli3="/icons/absorb.svg"
@@ -42,7 +42,7 @@ const HowItWorks = () => {
 
 
   <div className="col-12 col-md-6 col-lg-4 ">
-  <div className="card  border-0">
+  <div className="card  border-0 hiwcard1">
 
   <Card3
     kartinShekli3="/icons/accept.svg"
@@ -57,77 +57,33 @@ const HowItWorks = () => {
 
 
 
-<div className="collection">
-<section className='container introduction'>
-
-
-<div className='row container'>
-
-
-
-<div class="intro-left-side pt-5 col-12 col-md-6 ">
-
-<img className='face1' src="/images/face1.svg" alt="" />
-
-
-
-
-
-</div>
-
-
-<div class="intro-right-side fskin col-12 col-md-6 ">
-
-
-
-<p className='text-start'> <button className='collect'>Smooth skin collection</button> </p>
-<h1 className='text-start faceskin'>For oily face skin</h1>
-<p className='text-start sitamet'>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> suspendisse Varius enim in eros elementum tristique, duis cursus <br /> mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
-
-
-<div className='d-flex'>
-
-<button className='bg-white text-center shopnow'>Shop now</button>
-            <button className='contactus mx-3 pt-2'>Explore more <img src="/icons/arror.svg" alt="" /></button>
+   <div className="collection">
+    <section className=' introduction'>
+        <div className='row container'>
+            <div class="intro-left-side lico pt-5 col-12 col-md-6 ">
+              <p className='fac1'>  <img className='face1' src="/images/face1.svg" alt="" /> </p>
             </div>
-</div>
-
-
-
-
-<div class="intro-left-side2  col-12 col-md-6 ">
-
-
-<p className='text-start'> <button className='collect'>Healthy tanning collection</button> </p>
-<h1 className='text-start faceskin'>For body skin</h1>
-<p className='text-start sitamet'>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> suspendisse Varius enim in eros elementum tristique, duis cursus <br /> mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
-
-
-<button className='ourstory pt-2 text-center shopnow'>Shop now</button>
-            <button className='contactus mx-3 pt-2'>Explore more <img src="/icons/arror.svg" alt="" /></button>
-
-
-
-
-</div>
-
-
-<div class="intro-right-side fskin col-12 col-md-6 ">
-
-
-<img className='face2' src="/images/face2.svg" alt="" />
-
-</div>
-
-
-
-
-</div>
-
-
-</section>
-
-
+            <div class="intro-right-side  fskin col-12 col-md-6 ">
+                <p className='text-start'> <button className='collect'>Smooth skin collection</button> </p>
+                <h1 className='text-start faceskin'>For oily face skin</h1>
+                <p className='text-start sitamet'>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> suspendisse Varius enim in eros elementum tristique, duis cursus <br /> mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+                <div className='d-flex'>
+                    <button className='bg-white text-center shopnow'>Shop now</button>
+                    <button className='contactus mx-3 pt-2'>Explore more <img src="/icons/arror.svg" alt="" /></button>
+                </div>
+            </div>
+            <div class="intro-left-side2 col-12 col-md-6 ">
+                <p className='text-start'> <button className='collect'>Healthy tanning collection</button> </p>
+                <h1 className='text-start faceskin'>For body skin</h1>
+                <p className='text-start sitamet'>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br /> suspendisse Varius enim in eros elementum tristique, duis cursus <br /> mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+                <button className='ourstory pt-2 text-center shopnow'>Shop now</button>
+                <button className='contactus mx-3 pt-2'>Explore more <img src="/icons/arror.svg" alt="" /></button>
+            </div>
+            <div class="intro-right-side fskin col-12 col-md-6 ">
+                <p className='fac2 pt-5'> <img className='face2' src="/images/face2.svg" alt="" /> </p>
+            </div>
+        </div>
+    </section>
 </div>
 
 

@@ -56,15 +56,17 @@ const ArticlesSection = () => {
 
 
   <section className='partners container'>
+    
 
   <p className='pt-5'>Trusted by the world's best companies</p>
 
-<div className="partners1  pt-3">
 
-<img className='logo1' src="/icons/logo1.svg" alt="" />
-<img className='logo2 px-5' src="/icons/logo2.svg" alt="" />
-<img className='logo3 px-3 ' src="/icons/logo3.svg" alt="" />
-
+  <div class="partners1 pt-3">
+  <ul>
+    <li><img class="logo1" src="/icons/logo1.svg" alt="Logo 1" /></li>
+    <li><img class="logo2" src="/icons/logo2.svg" alt="Logo 2" /></li>
+    <li><img class="logo3" src="/icons/logo3.svg" alt="Logo 3" /></li>
+  </ul>
 </div>
 
 

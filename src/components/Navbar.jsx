@@ -50,29 +50,7 @@ const Navbar = () => {
           <button onClick={openMenu} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <Link to="/home" className="nav-link" onClick={closeMenuOnClick}>Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/products" className="nav-link" onClick={closeMenuOnClick}>Products</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/story" className="nav-link" onClick={closeMenuOnClick}>Story</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/blog" className="nav-link" onClick={closeMenuOnClick}>Blog</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/collections" className="nav-link" onClick={closeMenuOnClick}>Collections</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/contact" className="nav-link" onClick={closeMenuOnClick}>Contact</Link>
-              </li>
-            </ul>
-          </div>
-          
+       
           <div className='buttonss'>
             <button className='cartt mx-3'><img src="/icons/cart.svg" alt="" /> Cart</button>
             <button className='subs text-white border-0'>Subscribe</button>

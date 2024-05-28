@@ -1,3 +1,7 @@
+.aboutUs{
+    padding-top: 150px;
+}
+
 .aboutus {
     background-color: #edebf7;
     border-radius: 24px;
@@ -38,9 +42,11 @@
     border-color: #CDD5DF;
 }
 
-.bestSellers {
-    padding-top: 220px;
-}
+
+
+
+
+
 
 .bestsellers {
     color: #3C2769;
@@ -54,54 +60,56 @@
 }
 
 
-@media(max-width:768px) {
+.bestSellers {
+    padding-top: 220px;
+}
 
-    .contactus {
-        padding-top: 40px;
+
+
+
+@media (max-width: 320px) {
+    .carta1, .carta2, .carta3, .carta4, .carta5 {
+      margin-bottom: 20px; /* увеличиваем промежуток между картами */
     }
 
-    .carta2 {
-        padding-top: 100px;
 
+    .card {
+        margin-bottom: 20px; /* Add space below each card */
     }
+    
 
-    .carta3 {
-        padding-top: 100px;
-    }
-
+    .carta4,
     .carta5 {
-        padding-top: 600px;
-        display: flex;
+      width: 100%; /* Задайте ширину 100% для полной адаптивности на узких экранах */
+      margin-bottom: 20px; /* Измените отступ между карточками */
 
-    }
+  }
+  
 
-    .card5 {
-        display: flex;
-        margin-left: auto;
-    }
+ 
+
 }
 
 
 
-@media(max-width:1280px) {
 
-    .cartik {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+
+
+@media (max-width: 768px) {
+    .carta1, .carta2, .carta3, .carta4, .carta5{
+      margin-bottom: 20px; /* увеличиваем промежуток между картами */
+text-align: center;
+justify-content: center;
+display: flex;
     }
 
-    .carta1 {
-        padding-top: 50px;
-    }
-
-    .carta2 {
-        padding-top: 100px;
-    }
+    .carta4, .carta5 {
+        margin-top: 20px; /* Добавляем верхний отступ между картами */
+      }
 
 
-    .carta3 {
-        padding-top: 100px;
-    }
-}
+
+      
+    
+  }
+  
